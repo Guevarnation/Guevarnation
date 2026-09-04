@@ -65,10 +65,10 @@ func main() {
 
 ### `stats`
 
-<p align="center">
+<!-- <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=guevarnation&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&icon_color=00ADD8" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=guevarnation&layout=compact&langs_count=8&hide_border=true&theme=tokyonight" />
-</p>
+</p> -->
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=guevarnation&hide_border=true&theme=tokyonight" />
