@@ -31,48 +31,15 @@ type Engineer struct {
 	Stack    []string
 }
 
-func (e Engineer) Ship(idea string) (string, error) {
-	if idea == "" {
-		return "", fmt.Errorf("shipping nothing is still shipping, technically")
-	}
-	return fmt.Sprintf("%s (%d) → %s", e.Name, e.Age, idea), nil
-}
-
 func main() {
 	me := Engineer{
 		Name:     "Eugenio Guevara",
 		Age:      25,
 		Location: "Monterrey, México 🇲🇽",
-		Role:     "CTO & Co-founder @ YEYAR",
-		Stack:    []string{"Go", "TypeScript", "Next.js", "Postgres", "AWS"},
+		Role:     Full Stack Engineer,
+		Stack:    []string{"Go", "TypeScript", "Python", "Next.js", "Postgres", "AWS"},
 	}
-
-	out, err := me.Ship("real estate presales, in production")
-	if err != nil {
-		panic(err)
-	}
-	fmt.Println(out) // Eugenio Guevara (25) → real estate presales, in production
 }
-```
-
----
-
-### `~/now.ts`
-
-```ts
-type Now = {
-  building: string[];
-  learning: string[];
-  reading: `${string} algorithms`;
-  openTo: "interesting problems" | "coffee" | "both";
-};
-
-export const now: Now = {
-  building: ["YEYAR — real estate presale platform", "side projects that escape localhost"],
-  learning: ["distributed systems", "Go internals", "everything AWS keeps renaming"],
-  reading: "graph algorithms",
-  openTo: "both",
-} as const;
 ```
 
 ---
