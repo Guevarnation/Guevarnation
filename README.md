@@ -80,9 +80,9 @@ func main() {
 
 ```bash
 $ cat /dev/eugenio/fun_fact.txt
-> When the compiler wins, I go climb something.
-> Currently working toward certifying as a summit guide
-> for "La M" at Chipinque — the only trail I can't refactor.
+> I like climbing, calisthenics, and swimming
+> Currently grinding Go
+> i like dogs 
 ```
 
 <p align="center"><i>defer close(readme)</i></p>
